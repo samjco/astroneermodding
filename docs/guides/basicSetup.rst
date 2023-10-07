@@ -63,6 +63,8 @@ Go to ``AstroneerModding\GameFiles\WindowsNoEditor\Astro\Content\Items\ItemTypes
 on ``FloodLight_IT.uasset``. Since you probably have not opened one of these files before Windows
 will ask you for a program. Select "more apps," then "Look for another app on this PC." Browse to 
 and select the ``UAssetGUI.exe`` we extracted earlier. This will set UAssetGUI as the default 
-program for .uasset files, which you will need for making your first mod.
+program for .uasset files, which you will need for making your first mod. If UAssetGUI launches correctly,
+change it's engine version (top-right dropdown) to 4.23 or else your uasset file 
+will not load and you may receive an error message.
 
 To make your first mod continue with :doc:`basicModding`.
