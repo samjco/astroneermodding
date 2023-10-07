@@ -73,7 +73,9 @@ accidentially save over the original files.
 Modifying the Asset
 -------------------
 
-Now open the ``FloodLight_IT.uasset`` file in the ``TutorialMod`` folder using UAssetGUI.
+Now open the ``FloodLight_IT.uasset`` file in the ``TutorialMod`` folder using UAssetGUI. 
+Be sure to changed the UAssetGUI engine version (top-right dropdown) to 4.23 or else the uasset file 
+will not load and you may receive an error message.
 
 Each asset is made from multiple sections. The most interesting ones are usually ``Name Map``,
 ``Import Data`` and most importantly the ``Export Data`` section. Assets can have a few to hundreds
