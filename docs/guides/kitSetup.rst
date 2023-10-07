@@ -11,8 +11,9 @@ Visual Studio
 
 Download `Visual Studio <https://visualstudio.microsoft.com/downloads/>`_ 2017 or higher.
 
-When running the installer, on the "Workloads" page make sure you select "Desktop & Mobile > 
-Desktop development with C++" and "Gaming > Game development with C++".
+When running the installer, on the "Workloads" page make sure you select the following:
+* "Desktop & Mobile > Desktop development with C++"
+* "Gaming > Game development with C++".
 
 If Visual Studio is already installed you can run the installer and press modify to add the
 necessary workloads.
@@ -88,7 +89,7 @@ To generate the project files we will need to run the following command:
     "UE_INSTALL_PATH\Engine\Binaries\DotNET\UnrealBuildTool.exe" -projectfiles -project="PATH_TO_PROJECT\\Astro.uproject" -game -rocket -progress
 
 
-Open cmd in your project directory and copy this inside cmd. Remember to replace **UE_INSTALL_PATH** with your unreal engine installation folder which is usually found at ``C:\\Program Files\\Epic Games\UE_4.23\\``.
+Open cmd (Press Windows Key + Type "CMD") in your project directory and copy this inside cmd. Remember to replace **UE_INSTALL_PATH** with your unreal engine installation folder which is usually found at ``C:\\Program Files\\Epic Games\UE_4.23\\``.
 
 And remember to change **PATH_TO_PROJECT** with path to the modkit.
 
@@ -96,9 +97,10 @@ Example:
 
 .. code-block:: 
 
-    "C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\DotNET\UnrealBuildTool.exe" -projectfiles -project="C:\\Users\\username\\Documents\\Astro.uproject" -game -rocket -progress
+    "C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\DotNET\UnrealBuildTool.exe" -projectfiles -project="C:\\Users\\username\\Documents\\AstroneerModding\\ModdingKit-Master\\Astro.uproject" -game -rocket -progress
 
 Run the command, and then open the ``Astro.uproject`` file and if it asks to build unbuilt modules press yes and wait.
+Please Note. Before running the command in CMD, make sure that Visual Studio has been installed along with it's Wordload modules.
 
 Developing Mods
 ---------------
